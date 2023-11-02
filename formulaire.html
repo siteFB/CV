@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <!-- Ici le lien vers le fichier CSS qui donne du style -->
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <!-- Titre du formulaire -->
+    <h1>Ceci est un formulaire</h1><br>
+
+    <!-- Formulaire -->
+    <form method="GET">
+        Nom : <input type="text" name="nom" id="nom"><br>
+        Pr&eacute;nom : <input type="text" name="prenom" id="prenom"><br>
+        Email : <input type="email" name="email" id="email"><br>
+        <br>
+
+        <!-- Bouton radio -->
+        <p class="titreListe">Personnage préféré :</p>
+        <input type="radio" name="simpson" id="simpson" value="marge" checked>Marge<br>
+        <input type="radio" name="simpson" id="simpson" value="homer">Homer<br>
+        <input type="radio" name="simpson" id="simpson" value="bongo">Bongo<br>
+        <br>
+
+        <!-- Cases à cocher -->
+        <p class="titreListe">Lieux préférés :</p>
+        <input type="checkbox" name="voiture" id="voiture" value="1">Voiture<br>
+        <input type="checkbox" name="maison" id="maison" value="1">Maison<br>
+        <input type="checkbox" name="bar" id="bar" value="1">Bar<br>
+        <br>
+
+        <!-- Liste déroulante (select/option) -->
+        <p class="titreListe">Combien d'enfants a Marge?</p>
+        <select name="nationalite" id="nationalite">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <!-- Champ couleur -->
+        <p class="titreListe">De quelle couleur sont les cheveux bleus de Marge?</p>
+        <input type="color" name="couleur" id="couleur">
+
+        <!-- Zone de texte -->
+        <p class="titreListe">Remarques :</p>
+        <textarea name="remarques" id="remarques" cols="30" rows="5"></textarea><br><br>
+
+        <!-- Bouton de validation du formulaire (avec "input" submit/reset) -->
+        <input type="submit" name="envoyer" value="Envoyer" class="btn1">
+        <input type="reset" name="annuler" value="Annuler" class="btn2">
+        <!-- Bouton de retour au CV (lien vers la page "cv.html") -->
+        <button class="btnRed"><a href="cv.html">retour</a></button>
+    </form>
+</body>
+
+</html>

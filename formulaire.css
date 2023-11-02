@@ -1,0 +1,32 @@
+/* Ici un style CSS dans un fichier CSS lié au fichier HTML: "formulaire.html" */
+h1 {
+    color: #000099;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.titreListe {
+    font-weight: bold;
+    color: #000099;
+}
+
+.btn1 {
+    background-color: #ffff00;
+    font-size: 25px;
+    color: #000099;
+}
+
+.btn2 {
+    background-color: #00ffff;
+    font-size: 25px;
+    color: #ff0000;
+}
+
+.btnRed {
+    background-color: #ff0000;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+}
